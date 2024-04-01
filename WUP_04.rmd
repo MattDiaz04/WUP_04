@@ -16,6 +16,10 @@ GSS = read.csv("GSScsv.csv")
 
 # Introduction
 
+```{r}
+data <- read.csv(file="GSScsv.csv")
+```
+
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
 
 The data is in the file GSScsv.csv and came from the 2018 General Social Survey.  The question to answer is to resolve this hypothesis.  
@@ -54,6 +58,12 @@ According to this boxplot, there are clear differences with every median value b
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=data)
+```
+
+There is a difference in the mean based on the degree with the lowest being the LT high school with an average score of 7.75 which will be compared to the Graduate which contains an average score of 10.09.
 
 ## Inferential Results
 
