@@ -79,3 +79,5 @@ Here we can identify that that p-value is 0.000236 which is less than 0.05 so we
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The question that was originally stated was asking us if there is a difference between average score on the WORDSUM test and the level of which this test was scored. When we take a look at the boxplot we can see that the median values are all different as do the minimum and maximum values. Based on all of this information that we have received from the plots and data, we can reject the null hypothesis and we see that there is a significant between degree and WORDSUM test score. 
